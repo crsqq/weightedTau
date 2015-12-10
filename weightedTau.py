@@ -55,16 +55,3 @@ def productRS_c(r, s, R):
         ), ctypes.byref(R_c), arrayLength, ctypes.byref(flt))
 
     return flt.value
-
-
-def main():
-    a = [3, 7, 9, 3, 5]
-    b = [11, 6, 6, 3, 5]
-    abRank = [3, 1, 0, 4, 2]
-
-    print(productRS_c(a, b, abRank))
-
-    print(weightedTau([1,2,3,4], [1,2,4,3]))
-
-if __name__ == '__main__':
-    main()
