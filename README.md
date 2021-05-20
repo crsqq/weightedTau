@@ -1,6 +1,8 @@
 weightedTau
 ===========
 
+**NOTE by now scipy offers a efficient implementation: `scipy.stats.weightedtau`**
+
 A weighted version of Kendall's Tau as described in: Sebastiano Vigna. A
 weighted correlation index for rankings with ties. CoRR, abs/1404.3325, 2014. 
 
